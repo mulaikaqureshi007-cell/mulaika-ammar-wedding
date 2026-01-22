@@ -366,3 +366,34 @@ h2{
   .countdown-grid{grid-template-columns: repeat(2, 1fr)}
   .gallery{grid-template-columns: 1fr}
 }
+/* Light section styling */
+.section.light{
+  background:#f7f6f2;
+  color:#111;
+}
+
+.section.light .muted,
+.section.light p,
+.section.light li{
+  color: rgba(0,0,0,.72);
+}
+
+.section.light h1,
+.section.light h2,
+.section.light h3{
+  color:#111;
+}
+
+/* Make cards look good on light background */
+.section.light .card,
+.section.light .panel,
+.section.light .pill,
+.section.light .faq-item{
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(0,0,0,.10);
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.section.light .btn{
+  border-color: rgba(0,0,0,.15);
+}
