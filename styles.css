@@ -94,9 +94,11 @@ code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberat
 }
 
 .hero{
-  position:relative;
-  padding:4.2rem 0 2.6rem;
-  border-bottom:1px solid var(--line);
+  min-height: 100vh;          /* full screen */
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 6rem 0;            /* gives it “big hero” feel even with less content */
 }
 .hero-bg{
   position:absolute; inset:0;
