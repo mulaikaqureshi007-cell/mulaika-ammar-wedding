@@ -397,3 +397,26 @@ h2{
 .section.light .btn{
   border-color: rgba(0,0,0,.15);
 }
+.lahore-section{
+  position: relative;
+  overflow: hidden;
+}
+
+.lahore-section::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: url("assets/lahore.jpg") center/cover no-repeat;
+  opacity: .12;
+  filter: grayscale(1) contrast(1.05);
+  pointer-events:none;
+}
+
+.lahore-section .container{
+  position: relative;
+}
+
+.lahore-line{
+  font-size: 1.1rem;
+  max-width: 58ch;
+}
