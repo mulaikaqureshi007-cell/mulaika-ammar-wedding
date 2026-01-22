@@ -412,7 +412,7 @@ h2{
   position:absolute;
   inset:0;
   background: url("assets/lahore.jpg") center/cover no-repeat;
-  opacity: .12;
+  opacity: .45;
   filter: grayscale(1) contrast(1.05);
   pointer-events:none;
 }
