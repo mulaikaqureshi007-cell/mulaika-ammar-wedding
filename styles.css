@@ -402,6 +402,9 @@ h2{
 .lahore-section{
   position: relative;
   overflow: hidden;
+  min-height: 100vh;          /* makes it full laptop screen height */
+  display: flex;              /* lets us center content vertically */
+  align-items: center;        /* vertical center */
 }
 
 .lahore-section::before{
