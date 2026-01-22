@@ -101,8 +101,11 @@ code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberat
 .hero-bg{
   position:absolute; inset:0;
   background:
-    radial-gradient(900px 420px at 20% 30%, rgba(232,215,182,.18), transparent 60%),
-    radial-gradient(800px 380px at 85% 20%, rgba(209,184,138,.12), transparent 60%);
+    linear-gradient(180deg, rgba(15,15,16,.65), rgba(15,15,16,.85)),
+    url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: saturate(1.05);
   pointer-events:none;
 }
 .hero-inner{position:relative; text-align:center}
